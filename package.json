@@ -1,0 +1,26 @@
+{
+  "name": "guess-the-number",
+  "version": "1.0.0",
+  "description": "This repository holds the exercises and examples of the book \"Typescript Gamified\" by @pawap90. Each branch is dedicated to be a chapter of the book.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanRassa/typescript-gamified.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts"
+  ],
+  "author": "@JuanRassa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanRassa/typescript-gamified/issues"
+  },
+  "homepage": "https://github.com/JuanRassa/typescript-gamified#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
