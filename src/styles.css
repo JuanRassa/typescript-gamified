@@ -1,0 +1,38 @@
+:root {
+  /* Background Colors */
+  --bg-container: #d9d9bf;
+  --bg-canvas: #1b1924;
+  --bg-btn-canvas: #efefe1;
+
+  /* Border Colors */
+  --brdr-container: #b3b376;
+  --brdr-canvas: #5f597a;
+}
+
+#container {
+  border-radius: 4rem; /*  = 64px  */
+  border: 4px solid var(--brdr-container);
+  width: 32.5rem; /*  = 520px */
+  padding: 3rem; /*  = 48px  */
+
+  background-color: var(--bg-container);
+}
+#canvas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem; /*  = 8px */
+
+  border-radius: 30px;
+  border: 4px solid var(--brdr-canvas);
+  padding: 2.25rem; /*  = 36px  */
+
+  background-color: var(--bg-canvas);
+}
+
+#canvas > button {
+  border: none;
+  width: 3rem; /*  = 48px  */
+  height: 3rem; /*  = 48px  */
+
+  background-color: var(--bg-btn-canvas);
+}
