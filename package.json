@@ -1,0 +1,20 @@
+{
+  "name": "memory-tile-game",
+  "version": "1.0.0",
+  "description": "This repository holds the exercises and examples of the book \"Typescript Gamified\" by @pawap90. Each branch is dedicated to be a chapter of the book.",
+  "main": "src/index.ts",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.6"
+  }
+}
